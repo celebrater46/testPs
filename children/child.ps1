@@ -1,0 +1,1 @@
+return "Hello " + $Args[0] + " from the child!"
