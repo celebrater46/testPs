@@ -5,6 +5,9 @@ for ($j=0; $j -lt $nums.length; $j++){
     Start-Sleep -m 100
 }
 
+$nums += 9
+$nums = @(65) + $nums
+
 foreach($num in $nums){
     Write-Host $num
     Start-Sleep -m 100
