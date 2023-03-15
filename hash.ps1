@@ -13,4 +13,7 @@ $obj = @{
     "kick" = @(1, 1, 1, 1)
 }
 
+$obj.Add("tom", @(0,0,0,0,0,1,0,0, 0,1,1,0,0,0,1,0))
+
 Write-Host $obj.ch
+Write-Host $obj.tom
